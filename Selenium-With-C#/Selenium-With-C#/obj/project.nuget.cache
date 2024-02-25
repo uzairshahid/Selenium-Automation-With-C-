@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "anzDGnwjnLMvrYnoxSbYb79Kr+JG8fHSTEQuvvCtmQiNItCQAaG5KhX+6PmPpxqSMgmA799G05AxR/BWcqVqfQ==",
+  "dgSpecHash": "8oXIK4Xayk2yyAdPuCxVWE14q7Inv5bMyRXRcLJPhO4t6sZ6YpN3G7xC3tL9FUY3SLfSs0t6A1VnYsHRRYRcmA==",
   "success": true,
   "projectFilePath": "D:\\Selenium-Automation-With-CSharp\\Selenium-With-C#\\Selenium-With-C#\\Selenium-With-C#.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\uzair\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
     "C:\\Users\\uzair\\.nuget\\packages\\nunit.consolerunner\\3.17.0\\nunit.consolerunner.3.17.0.nupkg.sha512",
     "C:\\Users\\uzair\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\uzair\\.nuget\\packages\\selenium.support\\4.18.1\\selenium.support.4.18.1.nupkg.sha512",
     "C:\\Users\\uzair\\.nuget\\packages\\selenium.webdriver\\4.18.1\\selenium.webdriver.4.18.1.nupkg.sha512",
     "C:\\Users\\uzair\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\uzair\\.nuget\\packages\\webdriver.chromedriver\\26.14.313457.1\\webdriver.chromedriver.26.14.313457.1.nupkg.sha512"

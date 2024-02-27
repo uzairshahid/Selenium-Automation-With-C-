@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Selenium-Automation-With-CSharp\\Selenium-With-C#\\Selenium-With-C#\\Selenium-With-C#.csproj": {}
+    "D:\\Selenium-With-C#\\Selenium-With-C#\\Selenium-With-C#.csproj": {}
   },
   "projects": {
-    "D:\\Selenium-Automation-With-CSharp\\Selenium-With-C#\\Selenium-With-C#\\Selenium-With-C#.csproj": {
+    "D:\\Selenium-With-C#\\Selenium-With-C#\\Selenium-With-C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Selenium-Automation-With-CSharp\\Selenium-With-C#\\Selenium-With-C#\\Selenium-With-C#.csproj",
+        "projectUniqueName": "D:\\Selenium-With-C#\\Selenium-With-C#\\Selenium-With-C#.csproj",
         "projectName": "Selenium-With-C#",
-        "projectPath": "D:\\Selenium-Automation-With-CSharp\\Selenium-With-C#\\Selenium-With-C#\\Selenium-With-C#.csproj",
+        "projectPath": "D:\\Selenium-With-C#\\Selenium-With-C#\\Selenium-With-C#.csproj",
         "packagesPath": "C:\\Users\\uzair\\.nuget\\packages\\",
-        "outputPath": "D:\\Selenium-Automation-With-CSharp\\Selenium-With-C#\\Selenium-With-C#\\obj\\",
+        "outputPath": "D:\\Selenium-With-C#\\Selenium-With-C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\uzair\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Selenium-Automation-With-CSharp\\Selenium-With-C#\\",
+  "WorkspaceRootPath": "D:\\Selenium-With-C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBA1966E-D092-4CFB-9747-76CB6890CDD5}|Selenium-With-C#\\Selenium-With-C#.csproj|d:\\selenium-automation-with-csharp\\selenium-with-c#\\selenium-with-c#\\custommethodsforcontrols(get-set).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBA1966E-D092-4CFB-9747-76CB6890CDD5}|Selenium-With-C#\\Selenium-With-C#.csproj|d:\\selenium-with-c#\\selenium-with-c#\\custommethodsforcontrols(get-set).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBA1966E-D092-4CFB-9747-76CB6890CDD5}|Selenium-With-C#\\Selenium-With-C#.csproj|solutionrelative:selenium-with-c#\\custommethodsforcontrols(get-set).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CustomMethodsForControls(GET-SET).cs",
-              "DocumentMoniker": "D:\\Selenium-Automation-With-CSharp\\Selenium-With-C#\\Selenium-With-C#\\CustomMethodsForControls(GET-SET).cs",
+              "DocumentMoniker": "D:\\Selenium-With-C#\\Selenium-With-C#\\CustomMethodsForControls(GET-SET).cs",
               "RelativeDocumentMoniker": "Selenium-With-C#\\CustomMethodsForControls(GET-SET).cs",
-              "ToolTip": "D:\\Selenium-Automation-With-CSharp\\Selenium-With-C#\\Selenium-With-C#\\CustomMethodsForControls(GET-SET).cs",
+              "ToolTip": "D:\\Selenium-With-C#\\Selenium-With-C#\\CustomMethodsForControls(GET-SET).cs",
               "RelativeToolTip": "Selenium-With-C#\\CustomMethodsForControls(GET-SET).cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwC0AAAAQAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-25T18:21:18.423Z",
               "EditorCaption": ""

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Selenium-With-C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c60b700eb99d5db575130f36807da9d08f1340ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a167cde72ea434408f86ae55337601e7d17f732")]
 [assembly: System.Reflection.AssemblyProductAttribute("Selenium-With-C#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Selenium-With-C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

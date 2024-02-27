@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Selenium_With_C_.PropertiesCollection;
 
 namespace Selenium_With_C_
 {
@@ -12,16 +13,20 @@ namespace Selenium_With_C_
     {
 
 
-        public static string GetText(IWebDriver driver, string element, string elementType)
+        public static string GetText(string element, PropertyType elementType)
         {
-            if (elementType == "ID")
-                return driver.FindElement(By.Id(element)).Text;
-            else if (elementType == "Name")
-                return driver.FindElement(By.Name(element)).Text;
-            else if (elementType == "Class")
-                return driver.FindElement(By.ClassName(element)).Text;
-            else if (elementType == "XPath")
-                return driver.FindElement(By.XPath(element)).Text;
+            if (elementType == PropertyType.Id)
+                return PropertiesCollection.driver.FindElement(By.Id(element)).Text;
+            else if (elementType == PropertyType.Name)
+                return PropertiesCollection.driver.FindElement(By.Name(element)).Text;
+            else if (elementType == PropertyType.ClassName)
+                return PropertiesCollection.driver.FindElement(By.ClassName(element)).Text;
+            else if (elementType == PropertyType.XPath)
+                return PropertiesCollection.driver.FindElement(By.XPath(element)).Text;
+            else if (elementType == PropertyType.CssName)
+                return PropertiesCollection.driver.FindElement(By.CssSelector(element)).Text;
+            else if (elementType == PropertyType.LinkText)
+                return PropertiesCollection.driver.FindElement(By.LinkText(element)).Text;
             else return String.Empty;
 
         }

@@ -17,43 +17,44 @@ namespace Selenium_With_C_
         // Text Box
         // Drop Down Box
         // Check Box etc
-
-        // Initialize the driver
-        IWebDriver driver = new ChromeDriver();
+    
 
         [SetUp]
         public void Initialize()
         {
+
+            // Initialize the driver
+            PropertiesCollection.driver = new ChromeDriver();
             //  driver.Navigate().GoToUrl("https://www.techlistic.com/p/selenium-practice-form.html");
-            driver.Navigate().GoToUrl("https://the-internet.herokuapp.com/");
+            PropertiesCollection.driver.Navigate().GoToUrl("https://the-internet.herokuapp.com/");
             Console.WriteLine("URL Opening");
         }
 
         [Test]  // Click on drop down and select Option // drop down
         public void DropDownTestExecute()
         {
-            driver.Navigate().GoToUrl(driver.Url + "dropdown");
-            SeleniumSetMethods.Click(driver, "dropdown", "ID");
-            SeleniumSetMethods.SelectDropDown(driver, "dropdown", "Option 2", "ID");
-            SeleniumSetMethods.Click(driver, "dropdown", "ID");
-            Console.WriteLine(SeleniumGetMethods.GetText(driver, "dropdown", "ID"));
+            PropertiesCollection.driver.Navigate().GoToUrl(PropertiesCollection.driver.Url + "dropdown");
+            SeleniumSetMethods.Click("dropdown", PropertiesCollection.PropertyType.Id);
+            SeleniumSetMethods.SelectDropDown("dropdown", "Option 2", PropertiesCollection.PropertyType.Id);
+            SeleniumSetMethods.Click("dropdown", PropertiesCollection.PropertyType.Id);
+            Console.WriteLine(SeleniumGetMethods.GetText("dropdown", PropertiesCollection.PropertyType.Id));
 
         }
 
         [Test]
         public void InputBoxTestExecute()
         {
-            driver.SwitchTo().Window(driver.WindowHandles.Last());
-            driver.Navigate().GoToUrl(driver.Url + "inputs");
-            SeleniumSetMethods.Click(driver, "//*[@id=\"content\"]/div/div/div/input", "XPath");
-            SeleniumSetMethods.EnterText(driver, "//*[@id=\"content\"]/div/div/div/input", "1234", "XPath");
+            PropertiesCollection.driver.SwitchTo().Window(PropertiesCollection.driver.WindowHandles.Last());
+            PropertiesCollection.driver.Navigate().GoToUrl(PropertiesCollection.driver.Url + "inputs");
+            SeleniumSetMethods.Click("//*[@id=\"content\"]/div/div/div/input", PropertiesCollection.PropertyType.XPath);
+            SeleniumSetMethods.EnterText("//*[@id=\"content\"]/div/div/div/input", "1234", PropertiesCollection.PropertyType.XPath);
         }
 
 
         [TearDown]
         public void CleanUp()
         {
-            driver.Close();
+            PropertiesCollection.driver.Close();
 
         }
 
